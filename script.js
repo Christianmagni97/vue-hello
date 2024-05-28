@@ -1,9 +1,10 @@
-const { createApp, ref } = Vue
+const { createApp} = Vue
 createApp({
-    setup() {
-      const message = ref('Prova vue! :D')
+    data() {
       return {
-        message
+        message: 'Prova vue! :D',
+        nato: 'because it does not work?!',
+        immage: 'js.jpg',
       }
     }
   }).mount('#app')

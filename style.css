@@ -1,0 +1,12 @@
+h1{
+    text-align: center;
+    padding-top: 30px;
+    color: purple;
+    font-family: monospace;
+}
+body{
+    background-color: #00c180;
+}
+img{
+    width: 100%;
+}
